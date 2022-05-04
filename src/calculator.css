@@ -1,0 +1,64 @@
+.number-button, .sign-button,.extra-button {
+    color: white;
+    border: none;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.number-button {
+    background-color: #52565c;
+}
+.extra-button {
+    background-color: #1F2937;
+}
+.sign-button {
+    background-color: orange;
+}
+
+.min-heigh-screen {
+    height: 100vh;
+}
+
+.min-width-screen {
+    width: 100vw;
+}
+
+.mainbody {
+    padding: 1.3rem;
+}
+
+.calc-div {
+    align-items: center;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pd-b-1{
+    padding-bottom: 1rem;
+}
+
+.calculator-screen {
+    width: 30rem;
+    margin-left: 30%;
+    background: black;
+    color: white;
+}
+
+.calc-input,.calc-answer {
+    font-size: 2rem;
+    text-align: end;
+    padding: 1rem 2rem 1rem;
+}
+
+.calc-answer {
+    color: #ff8800;
+}
+
+.calc-heading {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.2rem;
+}
